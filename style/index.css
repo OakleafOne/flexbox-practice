@@ -27,9 +27,50 @@
     background-color: #9D0208;
     width: 60px;
     height: 60px;
-    margin: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tall {
+    height: 100px;
+    width: 60px;
+}
+
+.wide {
+    width: 100px;
+    height: 60px;
+}
+
+.small {
+    width: 60px;
+    height: 40px;
 }
 
 .card-top-left {
     justify-content: flex-start;
+}
+
+.card-top-right {
+    justify-content: center;
+}
+
+.card-middle-left {
+    justify-content: flex-end;
+}
+
+.card-middle-right {
+    justify-content: space-between;
+}
+
+.card-bottom-left {
+    justify-content: space-around;
+}
+
+.card-bottom-right {
+    justify-content: space-evenly;
 }
