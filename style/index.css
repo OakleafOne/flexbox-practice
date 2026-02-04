@@ -21,34 +21,44 @@
     min-height: 150px;
     display: flex;
     align-items: center;
+    border-radius: 5px;
 }
 
 .box {
     background-color: #9D0208;
-    width: 60px;
-    height: 60px;
+    width: 85px;
+    height: 85px;
     margin: 5px;
-    color: white;
     font-size: 10px;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 5px;
+}
+
+.normal-down {
+    align-self: flex-end;
+}
+
+.normal-up {
+    align-self: flex-start;
 }
 
 .tall {
-    height: 100px;
-    width: 60px;
+    height: 150px;
+    width: 75px;
 }
 
 .wide {
-    width: 100px;
-    height: 60px;
+    width: 175px;
+    height: 75px;
 }
 
 .small {
-    width: 60px;
-    height: 40px;
+    width: 75px;
+    height: 55px;
 }
 
 .card-top-left {
