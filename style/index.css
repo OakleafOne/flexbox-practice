@@ -29,3 +29,7 @@
     height: 60px;
     margin: 20px;
 }
+
+.card-top-left {
+    justify-content: flex-start;
+}
